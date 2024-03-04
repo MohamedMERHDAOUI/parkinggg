@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return 'test';
+=======
+    return 'testoohhhooo';
+>>>>>>> ddce7ecb48210c374fd77b97e2af2715887ad0bb
 });
