@@ -10,7 +10,20 @@ echo '<table border="1" width="400">';
    echo '<tr>';
    echo '<td bgcolor="#CCCCCC">Parking</td>';
    for ($j=1; $j<=$NbrCol; $j++)
-      echo '<td bgcolor="#FFFF66">'.$j.'</td>';
+   {
+   if ($j==1)
+   	{
+      echo '<td bgcolor="#FFFF66">Client</td>';
+	}
+   if ($j==2)
+   	{
+      echo '<td bgcolor="#FFFF66">Administrateur</td>';
+	}
+   else
+   	{
+      echo '<td bgcolor="#FFFF66">Administrateur</td>'
+   	}	   
+   }
    echo '</tr>';
 
 for ($i=1; $i<=$NbrLigne; $i++) {
