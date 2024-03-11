@@ -1,4 +1,4 @@
 <?php
 echo"bonjour jDM";
-echo "<body bgcolor='light blue'>";
+echo "<body bgcolor='white'>";
 ?>
