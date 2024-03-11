@@ -2,16 +2,15 @@
 echo"bonjour jDM";
 echo "<body bgcolor=''>";
 
-$NbrCol = 9;
-$NbrLigne = 9;
+$NbrCol = 3;
+$NbrLigne = 3;
 
 echo '<table border="1" width="400">';
 
    echo '<tr>';
-   echo '<td bgcolor="#CCCCCC">i X j</td>';
-   for ($j=1; $j<=$NbrCol; $j++) {
+   echo '<td bgcolor="#CCCCCC">Parking</td>';
+   for ($j=1; $j<=$NbrCol; $j++)
       echo '<td bgcolor="#FFFF66">'.$j.'</td>';
-   }
    echo '</tr>';
 
 for ($i=1; $i<=$NbrLigne; $i++) {
