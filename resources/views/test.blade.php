@@ -2,7 +2,7 @@
 echo"bonjour jDM";
 echo "<body bgcolor='white'>";
 $NbrLigne = 3;
-$NbrCol = 4:
+$NbrCol = 4;
 echo '<table>';
 for ($i=1; $i<=$NbrLigne; $i++) {
    echo '<tr>';
