@@ -1,5 +1,5 @@
 <?php
-echo"bonjour jDM";
+echo"bonjour jDM""<br>";
 echo "<body bgcolor='white'>";
 $NbrLigne = 3;
 $NbrCol = 4;
