@@ -10,7 +10,7 @@ for ($i=1; $i<=$NbrLigne; $i++) {
          echo '<td>';
           // ------------------------------------------
           // AFFICHAGE ligne $i, colonne $j
-         echo $affichage;
+         echo $affichage ?? '';
           // ------------------------------------------
          echo '</td>';
    }
