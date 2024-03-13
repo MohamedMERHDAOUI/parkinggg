@@ -1,6 +1,6 @@
 <?php
-echo"bonjour jDM";
-echo "<body bgcolor='white'>";
+echo"bonjour jDMfffff";
+/*echo "<body bgcolor='white'>";
 $NbrLigne = 
 echo '<table>';
 for ($i=1; $i<=$NbrLigne; $i++) {
@@ -16,5 +16,5 @@ for ($i=1; $i<=$NbrLigne; $i++) {
    echo '</tr>';
    $j=1;
 }
-echo '</table>';
+echo '</table>';*/
 ?>
