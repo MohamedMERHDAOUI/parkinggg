@@ -62,7 +62,7 @@ text-align: center;
 }
 </style>
 <button class="button button3">Accueil</button>
-<button class="button button2">Inscription</button>
+<a href ="inscription.php "<button class="button button2">Inscription</button></a>
 <button class="button button1">Réserver une place</button>
 <br>
 <?php
