@@ -9,11 +9,22 @@
 <body>
 <style type="text/css">
 
-.Titre{
+.TitrePrincipale{
 font-family: Bebas Neue;
 font-size: 5em;
-text-align: center; 
+color: red;
+position:absolute; 
+left:200px;
 }
+
+.TitreSecondaire{
+font-family: Bebas Neue;
+font-size: 3em;
+position:absolute;
+left:20px;
+top:200px;
+}
+
 
 .button {
   border: none;
@@ -61,9 +72,40 @@ text-align: center;
   color: white;
 }
 </style>
+<div style="position:absolute; right:20px; top:25px">
 <button class="button button3">Accueil</button>
-<a href ="inscription.blade.php"<button class="button button2">Inscription</button></a>
+<button class="button button2">Inscription</button></a>
 <button class="button button1">Réserver une place</button>
+</div>
+<div class="TitrePrincipale"><STRONG><U>Parking</U><STRONG>
+</div>
+<div class ="TitreSecondaire"><STRONG><U>Accueil</U></STRONG>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <?php
 $NbrCol = 2;
