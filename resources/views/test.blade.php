@@ -1,136 +1,111 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Parking</title>
-    </head>
-  
-<body>
-<style type="text/css">
-
-.TitrePrincipale{
-font-family: Bebas Neue;
-font-size: 5em;
-color: red;
-position:absolute; 
-left:200px;
-}
-
-.TitreSecondaire{
-font-family: Bebas Neue;
-font-size: 3em;
-position:absolute;
-left:20px;
-top:200px;
-}
-
-
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button3 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid red;
-}
-
-.button3:hover {
-  background-color: red;
-  color: white;
-}
-
-.button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid blue;
-}
-
-.button2:hover {
-  background-color: blue;
-  color: white;
-}
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid green;
-}
-
-.button1:hover {
-  background-color: green;
-  color: white;
-}
-</style>
-<div style="position:absolute; right:20px; top:25px">
-<button class="button button3">Accueil</button>
-<button class="button button2">Inscription</button></a>
-<button class="button button1">Réserver une place</button>
-</div>
-<div class="TitrePrincipale"><STRONG><U>Parking</U><STRONG>
-</div>
-<div class ="TitreSecondaire"><STRONG><U>Accueil</U></STRONG>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <?php
-echo"bonjour jDMfffff";
-/*echo "<body bgcolor='white'>";
-$NbrLigne = 
-echo '<table>';
-for ($i=1; $i<=$NbrLigne; $i++) {
-   echo '<tr>';
-   for ($j=1; $j<=$NbrCol; $j++) {
-      if ($j==1) {
-         echo '<td bgcolor="#FFFF66">'.$i.'</td>';
-      }
-       
-      echo '</td>';
-   }
-   echo '</tr>';
-   $j=1;
-}
-echo '</table>';*/
+echo "<!DOCTYPE html>";
+echo "<html>";
+echo "    <head>";
+echo "        <meta charset=\"utf-8\" />";
+echo "        <link rel=\"stylesheet\" href=\"style.css\" />";
+echo "        <title>Parking</title>";
+echo "    </head>";
+echo "  ";
+echo "<body>";
+echo "<style type=\"text/css\">";
+echo "";
+echo ".TitrePrincipale{";
+echo "font-family: Bebas Neue;";
+echo "font-size: 5em;";
+echo "color: red;";
+echo "position:absolute; ";
+echo "left:200px;";
+echo "}";
+echo "";
+echo ".TitreSecondaire{";
+echo "font-family: Bebas Neue;";
+echo "font-size: 3em;";
+echo "position:absolute;";
+echo "left:20px;";
+echo "top:200px;";
+echo "}";
+echo "";
+echo "";
+echo ".button {";
+echo "  border: none;";
+echo "  color: white;";
+echo "  padding: 16px 32px;";
+echo "  text-align: center;";
+echo "  text-decoration: none;";
+echo "  display: inline-block;";
+echo "  font-size: 16px;";
+echo "  margin: 4px 2px;";
+echo "  transition-duration: 0.4s;";
+echo "  cursor: pointer;";
+echo "}";
+echo "";
+echo ".button3 {";
+echo "  background-color: white; ";
+echo "  color: black; ";
+echo "  border: 2px solid red;";
+echo "}";
+echo "";
+echo ".button3:hover {";
+echo "  background-color: red;";
+echo "  color: white;";
+echo "}";
+echo "";
+echo ".button2 {";
+echo "  background-color: white; ";
+echo "  color: black; ";
+echo "  border: 2px solid blue;";
+echo "}";
+echo "";
+echo ".button2:hover {";
+echo "  background-color: blue;";
+echo "  color: white;";
+echo "}";
+echo "";
+echo ".button1 {";
+echo "  background-color: white; ";
+echo "  color: black; ";
+echo "  border: 2px solid green;";
+echo "}";
+echo "";
+echo ".button1:hover {";
+echo "  background-color: green;";
+echo "  color: white;";
+echo "}";
+echo "</style>";
+echo "<div style=\"position:absolute; right:20px; top:25px\">";
+echo "<button class=\"button button3\">Accueil</button>";
+echo "<button class=\"button button2\" onclick=\"window.location.href='" . url('/dashboard') . "'\">Inscription</button>";
+echo "<button class=\"button button1\">Réserver une place</button>";
+echo "</div>";
+echo "<div class=\"TitrePrincipale\"><STRONG><U>Parking</U><STRONG>";
+echo "</div>";
+echo "<div class =\"TitreSecondaire\"><STRONG><U>Accueil</U></STRONG>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "</body>";
+echo "</html>";
 ?>
-</body></html>
-<?php
-// déconnexion de la base
-mysql_close(); 
-?>
-*/
-?>
-
