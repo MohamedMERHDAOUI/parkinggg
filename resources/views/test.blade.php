@@ -98,7 +98,7 @@ echo "        <div class=\"container\">";
 echo "            <div class=\"TitrePrincipale\"><strong>Réservation de place de parking</strong></div>";
 echo "            <div class=\"TitreSecondaire\"><strong>Accueil</strong></div>";
 echo "            <div>";
-echo "                <button class=\"button button3\">Accueil</button>";
+echo "                <button class=\"button button3\">Réservation</button>";
 echo "                <button class=\"button button2\" onclick=\"window.location.href='/dashboard'\">Connexion</button>";
 echo "                <button class=\"button button1\" onclick=\"window.location.href='/register'\">Inscription</button>";
 echo "            </div>";
