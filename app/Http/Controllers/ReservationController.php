@@ -47,7 +47,7 @@ class ReservationController extends Controller
        $reservation->save();
 
        // Rediriger avec un message de succès
-       return ('success, Réservation ajoutée avec succès.');
+       return ('Réservation ajoutée avec succès.');
     }
    
     
