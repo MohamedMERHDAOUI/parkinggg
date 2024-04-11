@@ -13,6 +13,9 @@ class ReservationController extends Controller
     // Enregistrer une nouvelle réservation dans la base de données
     public function store(Request $request)
     {
+        if (!Auth::check()){
+            return 'Veuillez vous identifier avant de faire une réservation';
+        }
            // Récupérer l'ID de l'utilisateur authentifié
        $userID = auth()->user()->id;
 
